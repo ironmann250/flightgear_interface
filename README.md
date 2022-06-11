@@ -15,4 +15,4 @@ while(1):
     print(fgcom.get_param("roll"))
 fgcom.quit()
 ```
-for feature updates, add an issue and i'll get on it.
+for feature updates, add an issue and i'll work on it.
