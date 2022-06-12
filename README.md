@@ -9,10 +9,10 @@ from  flightgear_interface import FG_com
 import time
 fgcom=FG_com(True)
 fgcom.start()
-fgcom.connect()
-time.sleep(40) #wait until FG is ready
+fg_com.connect_and_wait_until_ready()
+time.sleep(15) #wait until FG is ready
 while(1):
-    print(fgcom.get_param("roll"))
+    print(fgcom.get_param("pitch"))
 fgcom.quit()
 ```
 for feature updates, add an issue and i'll work on it.
